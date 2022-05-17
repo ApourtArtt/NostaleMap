@@ -22,10 +22,10 @@ You will also need to unpack NStgData which stores the 3D .obj and .mtl (not sur
 And finally, you will need to unpack NStpData which stores the images used by the .mtl files
 
 Then you will need to create a folder, wherever you want and call it "maps", inside of it, a folder named "3dmodels".
-> |_ maps
+> |_ maps \
 > | |_ 3dmodels
 
-In 3dmodels you will save all the object related files (.obj, .jpg, .png if there is any, .mtl, ...)
+In 3dmodels you will save all the object related files (.obj, .jpg, .png if there is any, .mtl, ...) \
 In maps, you will save the map structures, coming from NStuData. It should be in .map extension - AFAIR Onex saves in .bin, you can change the extension easily with the following command: `ren *.bin *.map`
 
 ##### Display the map
